@@ -66,7 +66,9 @@ background-position: 0px 44px
 </style> 
 <script>
 $(document).ready(function(){
+	console.log("Here");
 	var carouselsJTC = $(".carouselWrapper")
+	console.log(carouselsJTC.length);
 	for (i=0; i<carouselsJTC.length ;i++) {
 	// This initialises carousels on the container elements specified.
 		var n = i.toString();
